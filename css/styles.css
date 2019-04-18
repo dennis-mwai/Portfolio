@@ -1,0 +1,14 @@
+
+.topnav a {
+float: right;
+color: rgb(1, 15, 27);
+text-align: center;
+padding: 15px 17px;
+text-decoration-style: solid;
+}
+
+.topnav a:hover {
+    background-color: blue;
+    color: rgb(255, 254, 254);
+}
+
