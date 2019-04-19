@@ -24,3 +24,24 @@ text-decoration-style: solid;
     background-color: blueviolet;
     color: white;
 }
+
+.profilephoto {
+    float: left;
+    width: 30%;
+}
+
+/* the container holding the text and image in home */
+.homeinfo {
+    float: right;
+    width: 70%;
+    position: relative;
+}
+
+/* center text in home */
+ol.nonetype {
+    list-style-type: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
