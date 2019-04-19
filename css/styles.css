@@ -37,7 +37,7 @@ text-decoration-style: solid;
     position: relative;
 }
 
-/* center text in home */
+/* center text on top of image in home */
 ol.nonetype {
     list-style-type: none;
     position: absolute;
