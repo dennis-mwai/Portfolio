@@ -1,4 +1,4 @@
-
+/* styles the links inside the navigation bar */
 .topnav a {
 float: right;
 color: rgb(1, 15, 27);
@@ -7,8 +7,20 @@ padding: 15px 17px;
 text-decoration-style: solid;
 }
 
+/* add a grey background color to the nav bar */
+.topnav {
+    background-color: grey;
+    overflow: hidden;
+}
+
+/* change the color of the links when on hover */
 .topnav a:hover {
     background-color: blue;
     color: rgb(255, 254, 254);
 }
 
+/* add color to the current link or the active link */
+.topnav a.active {
+    background-color: blueviolet;
+    color: white;
+}
