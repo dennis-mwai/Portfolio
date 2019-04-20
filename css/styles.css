@@ -123,3 +123,19 @@ ul{
     align-self: center;
     grid-template-columns: auto;
   }
+
+  /* style the heading to about page */
+.aboutheading {
+    padding: 200px 0 50 0;
+    margin: 100px 0 50 0;
+    text-align: center;
+    font-style: oblique; 
+}
+
+/* add grey gradient to paragraph in about me  */
+#grad2 {
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(169,169,169,1), rgba(255,0,0,0)); /* Standard syntax (must be last) */
+    margin: 1%;
+    padding: 20px;
+}
