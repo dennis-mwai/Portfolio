@@ -89,13 +89,15 @@ p{
     width: 78%;
 }
 
-/* align location photo to the right */
-.loc {
-    align-content: right;
-    padding: 10% 0;
-}
-
 /* removes bullets from icon list */
 ul{
     list-style-type: none;
+}
+
+/* styles and aligns the heading for the background&projects page  */
+.projectsheading {
+    padding: 200px 0 50 0;
+    margin: 100px 0 50 0;
+    text-align: center;
+    font-style: oblique; 
 }
