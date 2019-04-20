@@ -1,47 +1,5 @@
-/* styles the links inside the navigation bar */
-.topnav a {
-float: right;
-color: rgb(1, 15, 27);
-text-align: center;
-padding: 15px 17px;
-text-decoration-style: solid;
-}
-
-/* add a grey background color to the nav bar */
-.topnav {
-    background-color: grey;
-    overflow: hidden;
-}
-
-/* change the color of the links when on hover */
-.topnav a:hover {
-    background-color: blue;
-    color: rgb(255, 254, 254);
-}
-
-/* add color to the current link or the active link */
-.topnav a.active {
-    background-color: blueviolet;
-    color: white;
-}
-
-.profilephoto {
-    float: left;
-    width: 30%;
-}
-
-/* the container holding the text and image in home */
-.homeinfo {
-    float: right;
-    width: 70%;
-    position: relative;
-}
-
-/* center text on top of image in home */
-ol.nonetype {
-    list-style-type: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
+/* set body margin and padding to fit 100% of the page */
+body {
+    padding: 0;
+    margin: 0;
 }
