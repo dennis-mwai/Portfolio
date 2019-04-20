@@ -101,3 +101,25 @@ ul{
     text-align: center;
     font-style: oblique; 
 }
+
+/* styles the background and projects page to accupy full page */
+.projects {
+    height: 100%;
+}
+
+/* create columns using float */
+.column {
+    float: left;
+    width: 25%;
+    background-color: rgba(169,169,169,1);
+  }
+
+  /* Clear floats after the columns, allgn test in columns, display columns as table*/
+.row{
+    align-items: center;
+    content: "";
+    display: table;
+    align-content: center;
+    align-self: center;
+    grid-template-columns: auto;
+  }
