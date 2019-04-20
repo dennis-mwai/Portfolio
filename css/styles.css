@@ -58,3 +58,44 @@ p{
     text-align: center;
     font-style: oblique;  
 }
+
+/* displays the contacts sections as a grid with 2 columns */
+.contacts{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* gives icon background gray gradent  */
+#icons{
+    padding: 9% 0;
+    margin: 0% 0 0 10%;
+    background-image: linear-gradient(to left, rgba(169,169,169,1), rgba(255,0,0,0));
+}
+
+/* sets margin for icon classes */
+.fab, .fas{
+    margin: 10px;
+}
+
+/* set padding for location image */
+.img_holder_1 {
+    padding: 15px 0;
+}
+
+/* set width for location image */
+#loc {
+    width: 78%;
+}
+
+/* align location photo to the right */
+.loc {
+    align-content: right;
+    padding: 10% 0;
+}
+
+/* removes bullets from icon list */
+ul{
+    list-style-type: none;
+}
