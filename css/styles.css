@@ -1,5 +1,19 @@
-/* set body margin and padding to fit 100% of the page */
+/* set body margin and padding to fit 100% of the page preventing overflow of contents*/
 body {
     padding: 0;
     margin: 0;
 }
+
+/* styles navbar to display as drid with 4 columns, text aligned to center */
+nav{
+    padding: 3% 0 2% 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    text-align: center;
+}
+
+/* removes the undeline from the anchor tags in the nav bar, sets color to dark grey */
+a{
+    text-decoration: none;
+    color: darkgray;
