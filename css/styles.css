@@ -47,6 +47,11 @@ a{
     font-family: "Times New Roman", Times, serif;
 }
 
+#grad2 p {
+width: 100%;
+padding: 5%
+}
+
 /* aligns paragraph text */
 h1 {
     text-align: center;
@@ -56,8 +61,9 @@ h1 {
 /* aligns the heading of the contact page */
 .contactsheading {
 
-    padding: 200px 0 50 0;
-    margin: 100px 0 50 0;
+    /* padding: 200px 0 50 0;
+    margin: 100px 0 50 0; */
+
     text-align: center;
     font-style: oblique;  
 }
@@ -99,8 +105,6 @@ ul{
 
 /* styles and aligns the heading for the background&projects page  */
 .projectsheading {
-    padding: 200px 0 50 0;
-    margin: 100px 0 50 0;
     text-align: center;
     font-style: oblique; 
 }
@@ -119,6 +123,7 @@ ul{
 
   .column2 p {
       color:gainsboro;
+      overflow: auto;
   }
 
   /* Clear floats after the columns, allgn test in columns, display columns as table*/
@@ -129,12 +134,11 @@ ul{
     align-content: center;
     align-self: center;
     grid-template-columns: auto;
+    height: 100%;
   }
 
   /* style the heading to about page */
 .aboutheading {
-    padding: 200px 0 50 0;
-    margin: 100px 0 50 0;
     text-align: center;
     font-style: oblique; 
 }
@@ -143,6 +147,7 @@ ul{
 .column2 {
     float: left;
     width: 50%;
+    overflow: auto;
     background-color: rgba(169,169,169,1);
 }
 
