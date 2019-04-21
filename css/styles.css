@@ -137,4 +137,8 @@ ul{
     float: left;
     width: 50%;
     background-color: rgba(169,169,169,1);
-  }
+}
+
+.projectlink {
+    color: blue;
+}
