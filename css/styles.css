@@ -117,6 +117,10 @@ ul{
     background-color: rgba(169,169,169,1);
   }
 
+  .column2 p {
+      color:gainsboro;
+  }
+
   /* Clear floats after the columns, allgn test in columns, display columns as table*/
 .row{
     align-items: center;
@@ -166,6 +170,7 @@ p {
 .details5 {
     color: gainsboro;
 }
+
 
 
 
