@@ -151,6 +151,28 @@ ul{
 p {
     text-align: center;
 }
+.details1 {
+    color: gainsboro;
+}
+.details2 {
+    color: gainsboro;
+}
+.details3 {
+    color: gainsboro;
+}
+.details4 {
+    color: gainsboro;
+}
+.details5 {
+    color: gainsboro;
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width: 768px){
     body {
