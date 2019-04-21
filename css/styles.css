@@ -151,3 +151,55 @@ ul{
 p {
     text-align: center;
 }
+
+@media screen and (max-width: 768px){
+    body {
+background-color: black;
+color: white;
+    }
+    .img_holder {
+        width: 100%;
+    }
+    #grad1 {
+        width: 100%;
+    }
+    #contacts {
+        width: 100%;
+    }
+    #icons {
+        width: 100%;
+    }
+    .projectsheading {
+        width: 100%;
+    }
+
+    .column {
+        float: none;
+        overflow: wrap;
+        margin-left: 35%;
+        padding: 5px;
+        align-content: center;
+        background-color: black;
+    }
+
+    .column2 {
+        float: none;
+        overflow: wrap;
+        margin-left: 25%;
+        padding: 5px;
+        align-content: center;
+        background-color: black;
+    }
+    .aboutme{
+        width: 100%;
+    }
+    #grad2 {
+        text-align: center;
+    }
+    #grad2 div p{
+        text-align: center;
+    }
+    p {
+        text-align: justify;
+    }
+}
