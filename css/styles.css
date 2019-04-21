@@ -43,11 +43,14 @@ a{
     width: 80%;
     background-image: linear-gradient(to right, rgba(169,169,169,1), rgba(255,0,0,0)); /* Standard syntax (must be last) */
     margin: 15% 0 0 0;
+    word-spacing: 5px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 /* aligns paragraph text */
-p{
+h1 {
     text-align: center;
+    padding: 100px;
 }
 
 /* aligns the heading of the contact page */
@@ -139,6 +142,12 @@ ul{
     background-color: rgba(169,169,169,1);
 }
 
+/* makes text in links to be blue */
 .projectlink {
     color: blue;
+}
+
+/* align text in paragraph to center */
+p {
+    text-align: center;
 }
