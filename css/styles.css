@@ -48,8 +48,9 @@ a{
 }
 
 #grad2 p {
+    box-sizing: border-box;
 width: 100%;
-padding: 5%
+padding: 5%;
 }
 
 /* aligns paragraph text */
@@ -121,9 +122,9 @@ ul{
     background-color: rgba(169,169,169,1);
   }
 
-  .column2 p {
+  .column2 > p > ol > li > p{
       color:gainsboro;
-      overflow: auto;
+      width: 70%;
   }
 
   /* Clear floats after the columns, allgn test in columns, display columns as table*/
@@ -147,7 +148,6 @@ ul{
 .column2 {
     float: left;
     width: 50%;
-    overflow: auto;
     background-color: rgba(169,169,169,1);
 }
 
@@ -215,6 +215,7 @@ color: white;
     }
 
     .column2 {
+        width: 100%;
         float: none;
         overflow: wrap;
         margin-left: 25%;
