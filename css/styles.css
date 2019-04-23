@@ -148,7 +148,7 @@ ul{
 .column2 {
     float: left;
     width: 50%;
-    background-color: rgba(169,169,169,1);
+    background-color: rgba(169,169,169,3);
 }
 
 /* makes text in links to be blue */
