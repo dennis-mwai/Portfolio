@@ -12,7 +12,7 @@ This website is my portfolio.
 
 ## Project Setup Instructions
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolorem saepe delectus, perspiciatis alias eaque molestias harum. Alias, quasi? Quas, est fuga. Quis consequuntur dolore unde ipsam praesentium quasi impedit?
+When you log in to my portfolio, you will scroll down to see all my details.
 
 ## Link To Live Site
 
